@@ -67,11 +67,11 @@ public enum HTTPMethod : CustomStringConvertible {
   }
 }
 
-public func http(_ method: HTTPMethod, uri: String) -> (_ request: URLRequest) -> Bool {
+public func http(_ method: HTTPMethod, uri uriString: String) -> (_ request: URLRequest) -> Bool {
   return { (request:URLRequest) in
     if let requestMethod = request.httpMethod {
       if requestMethod == method.description {
-        return Mockingjay.uri(uri)(request)
+        return uri(uriString)(request)
       }
     }
     

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0910"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2746CDBE1A702F7800719B66"
-               BuildableName = "Mockingjay.framework"
-               BlueprintName = "Mockingjay"
+               BlueprintIdentifier = "MockingJay::MockingJayCore"
+               BuildableName = "MockingJayCore.framework"
+               BlueprintName = "MockingJayCore"
                ReferencedContainer = "container:Mockingjay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2746CDC91A702F7800719B66"
-               BuildableName = "MockingjayTests.xctest"
-               BlueprintName = "MockingjayTests"
+               BlueprintIdentifier = "MockingJay::MockingJayXCTest"
+               BuildableName = "MockingJayXCTest.framework"
+               BlueprintName = "MockingJayXCTest"
                ReferencedContainer = "container:Mockingjay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,23 +41,14 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2746CDBE1A702F7800719B66"
-            BuildableName = "Mockingjay.framework"
-            BlueprintName = "Mockingjay"
-            ReferencedContainer = "container:Mockingjay.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2746CDC91A702F7800719B66"
-               BuildableName = "MockingjayTests.xctest"
-               BlueprintName = "MockingjayTests"
+               BlueprintIdentifier = "MockingJay::MockingJayTests"
+               BuildableName = "MockingJayTests.xctest"
+               BlueprintName = "MockingJayTests"
                ReferencedContainer = "container:Mockingjay.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -73,15 +64,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2746CDBE1A702F7800719B66"
-            BuildableName = "Mockingjay.framework"
-            BlueprintName = "Mockingjay"
-            ReferencedContainer = "container:Mockingjay.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -89,15 +71,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2746CDBE1A702F7800719B66"
-            BuildableName = "Mockingjay.framework"
-            BlueprintName = "Mockingjay"
-            ReferencedContainer = "container:Mockingjay.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

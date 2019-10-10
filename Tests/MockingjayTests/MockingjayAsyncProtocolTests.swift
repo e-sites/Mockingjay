@@ -8,7 +8,8 @@
 
 import Foundation
 import XCTest
-import Mockingjay
+@testable import MockingJayXCTest
+@testable import MockingJayCore
 
 class MockingjayAsyncProtocolTests: XCTestCase, URLSessionDataDelegate  {
   
@@ -57,66 +58,6 @@ class MockingjayAsyncProtocolTests: XCTestCase, URLSessionDataDelegate  {
       waitForExpectations(timeout: 2.0, handler: nil)
     }
     XCTAssertEqual(mutableData as Data, stubData)
-  }
-  
-  func testDownloadOfAudioFileInChunks() {
-    let request = URLRequest(url: URL(string: "https://fuller.li/")!)
-    let path = Bundle(for: self.classForCoder).path(forResource: "TestAudio", ofType: "m4a")
-    let data = try! Data(contentsOf: URL(fileURLWithPath: path!))
-    
-    let stubResponse = HTTPURLResponse(url: request.url!, statusCode: 200, httpVersion: "1.1", headerFields: ["Content-Length" : String(data.count)])!
-    
-    MockingjayProtocol.addStub(matcher: { (requestedRequest) -> (Bool) in
-      return true
-    }) { (request) -> (Response) in
-      return Response.success(stubResponse, Download.streamContent(data: data, inChunksOf: 2000))
-    }
-    let urlSession = Foundation.URLSession(configuration: configuration, delegate: self, delegateQueue: OperationQueue.current)
-    let dataTask = urlSession.dataTask(with: request)
-    dataTask.resume()
-    
-    let mutableData = NSMutableData()
-    while mutableData.length < data.count {
-      let expectation = self.expectation(description: "testProtocolCanReturnedDataInChunks")
-      self.didReceiveDataHandler = { (session: Foundation.URLSession, dataTask: URLSessionDataTask, data: Data) in
-        mutableData.append(data)
-        expectation.fulfill()
-      }
-      waitForExpectations(timeout: 2.0, handler: nil)
-    }
-    XCTAssertEqual(mutableData as Data, data)
-  }
-  
-  func testByteRanges() {
-    let length = 100000
-    var request = URLRequest(url: URL(string: "https://fuller.li/")!)
-    request.addValue("bytes=50000-149999", forHTTPHeaderField: "Range")
-    let path = Bundle(for: self.classForCoder).path(forResource: "TestAudio", ofType: "m4a")
-    let data = try! Data(contentsOf: URL(fileURLWithPath: path!))
-    
-    let stubResponse = HTTPURLResponse(url: request.url!, statusCode: 200, httpVersion: "1.1", headerFields: ["Content-Length" : String(length)])!
-    MockingjayProtocol.addStub(matcher: { (requestedRequest) -> (Bool) in
-      return true
-    }) { (request) -> (Response) in
-      return Response.success(stubResponse, .streamContent(data: data, inChunksOf: 2000))
-    }
-    
-    let urlSession = Foundation.URLSession(configuration: configuration, delegate: self, delegateQueue: OperationQueue.current)
-    let dataTask = urlSession.dataTask(with: request)
-    dataTask.resume()
-    
-    var mutableData = Data()
-    while mutableData.count < length {
-      let expectation = self.expectation(description: "testProtocolCanReturnedDataInChunks")
-      self.didReceiveDataHandler = { (session: Foundation.URLSession, dataTask: URLSessionDataTask, data: Data) in
-        mutableData.append(data)
-        expectation.fulfill()
-      }
-      waitForExpectations(timeout: 2.0, handler: nil)
-    }
-    
-    let correctData = data.subdata(in: 50000 ..< (50000 + length))
-    XCTAssertEqual(mutableData, correctData)
   }
   
   // MARK: NSURLSessionDataDelegate

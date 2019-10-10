@@ -8,7 +8,8 @@
 
 import Foundation
 import XCTest
-import Mockingjay
+@testable import MockingJayXCTest
+@testable import MockingJayCore
 
 
 class EverythingMatcherTests : XCTestCase {

@@ -41,6 +41,8 @@ public class MockingjayProtocol: URLProtocol {
 
     if !registered {
       URLProtocol.registerClass(MockingjayProtocol.self)
+      _ = swizzleDefaultSessionConfiguration
+      registered = true
     }
 
     return stub
