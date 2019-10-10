@@ -21,7 +21,7 @@
       },
       {
         "package": "URITemplate",
-        "repositoryURL": "https://github.com/basvankuijck/URITemplate.swift.git",
+        "repositoryURL": "https://github.com/e-sites/URITemplate.swift.git",
         "state": {
           "branch": "master",
           "revision": "f9357dbae6447d083d2fcc1c1f8604d5cd5a7db8",

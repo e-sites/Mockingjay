@@ -19,7 +19,7 @@ let package = Package(
         )
     ],
     dependencies: [
-      .package(url: "https://github.com/basvankuijck/URITemplate.swift.git", .branch("master"))
+      .package(url: "https://github.com/e-sites/URITemplate.swift.git", .branch("master"))
     ],
     targets: [
         .target(

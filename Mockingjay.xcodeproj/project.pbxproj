@@ -332,10 +332,10 @@
       "OBJ_29" = {
          isa = "PBXGroup";
          children = (
-            "MockingJay::MockingJayCore::Product",
-            "MockingJay::MockingJayXCTest::Product",
             "URITemplate::URITemplate::Product",
-            "MockingJay::MockingJayTests::Product"
+            "MockingJay::MockingJayXCTest::Product",
+            "MockingJay::MockingJayTests::Product",
+            "MockingJay::MockingJayCore::Product"
          );
          name = "Products";
          path = "";
