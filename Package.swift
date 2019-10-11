@@ -29,12 +29,12 @@ let package = Package(
         ),
         .target(
             name: "MockingjayXCTest",
-            dependencies: [ "MockingJayCore" ],
+            dependencies: [ "MockingjayCore" ],
             path: "Sources/XCTest"
         ),
         .testTarget(
           name: "MockingJayTests",
-          dependencies: [ "MockingJayCore" ],
+          dependencies: [ "MockingjayCore" ],
           path: "Tests/MockingjayTests"
         )
     ],
