@@ -34,7 +34,7 @@ let package = Package(
         ),
         .testTarget(
           name: "MockingjayTests",
-          dependencies: [ "Mockingjay" ],
+          dependencies: [ "MockingjayXCTest" ],
           path: "Tests/MockingjayTests"
         )
     ],

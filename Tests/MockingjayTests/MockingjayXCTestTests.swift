@@ -8,7 +8,7 @@
 
 import XCTest
 @testable import MockingjayXCTest
-@testable import MockingjayCore
+@testable import Mockingjay
 
 
 class MockingjayXCTestTests: XCTestCase {

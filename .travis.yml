@@ -4,5 +4,5 @@ matrix:
       osx_image: xcode11
 script:
   - swift package generate-xcodeproj
-  - xcodebuild -project Mockingjay.xcodeproj -scheme MockingJay-Package -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11' test
+  - xcodebuild -project Mockingjay.xcodeproj -scheme Mockingjay-Package -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11' test
   - pod lib lint --quick

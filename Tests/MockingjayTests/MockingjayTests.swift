@@ -9,7 +9,7 @@
 import Foundation
 import XCTest
 @testable import MockingjayXCTest
-@testable import MockingjayCore
+@testable import Mockingjay
 
 func toString(_ item:AnyClass) -> String {
   return "\(item)"

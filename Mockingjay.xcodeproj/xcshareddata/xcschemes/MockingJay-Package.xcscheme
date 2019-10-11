@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Mockingjay::MockingjayCore"
-               BuildableName = "MockingjayCore.framework"
-               BlueprintName = "MockingjayCore"
+               BlueprintIdentifier = "Mockingjay::Mockingjay"
+               BuildableName = "Mockingjay.framework"
+               BlueprintName = "Mockingjay"
                ReferencedContainer = "container:Mockingjay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
