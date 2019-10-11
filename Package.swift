@@ -2,7 +2,7 @@
 
 import PackageDescription
 let package = Package(
-    name: "MockingJay",
+    name: "Mockingjay",
     platforms: [
         .iOS(.v10),
         .macOS(.v10_10),
@@ -33,7 +33,7 @@ let package = Package(
             path: "Sources/XCTest"
         ),
         .testTarget(
-          name: "MockingJayTests",
+          name: "MockingjayTests",
           dependencies: [ "MockingjayCore" ],
           path: "Tests/MockingjayTests"
         )

@@ -3,100 +3,100 @@
    archiveVersion = "1";
    objectVersion = "46";
    objects = {
-      "MockingJay::MockingJay::ProductTarget" = {
+      "Mockingjay::Mockingjay::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_41";
+         buildConfigurationList = "OBJ_42";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_44"
+            "OBJ_45"
          );
-         name = "MockingJay";
-         productName = "MockingJay";
+         name = "Mockingjay";
+         productName = "Mockingjay";
       };
-      "MockingJay::MockingJayCore" = {
+      "Mockingjay::MockingjayCore" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_46";
+         buildConfigurationList = "OBJ_47";
          buildPhases = (
-            "OBJ_49",
-            "OBJ_55"
+            "OBJ_50",
+            "OBJ_56"
          );
          dependencies = (
-            "OBJ_57"
+            "OBJ_58"
          );
-         name = "MockingJayCore";
-         productName = "MockingJayCore";
-         productReference = "MockingJay::MockingJayCore::Product";
+         name = "MockingjayCore";
+         productName = "MockingjayCore";
+         productReference = "Mockingjay::MockingjayCore::Product";
          productType = "com.apple.product-type.framework";
       };
-      "MockingJay::MockingJayCore::Product" = {
+      "Mockingjay::MockingjayCore::Product" = {
          isa = "PBXFileReference";
-         path = "MockingJayCore.framework";
+         path = "MockingjayCore.framework";
          sourceTree = "BUILT_PRODUCTS_DIR";
       };
-      "MockingJay::MockingJayPackageTests::ProductTarget" = {
+      "Mockingjay::MockingjayPackageTests::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_66";
+         buildConfigurationList = "OBJ_67";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_69"
+            "OBJ_70"
          );
-         name = "MockingJayPackageTests";
-         productName = "MockingJayPackageTests";
+         name = "MockingjayPackageTests";
+         productName = "MockingjayPackageTests";
       };
-      "MockingJay::MockingJayTests" = {
+      "Mockingjay::MockingjayTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_71";
+         buildConfigurationList = "OBJ_72";
          buildPhases = (
-            "OBJ_74",
-            "OBJ_81"
+            "OBJ_75",
+            "OBJ_82"
          );
          dependencies = (
-            "OBJ_84",
-            "OBJ_85"
+            "OBJ_85",
+            "OBJ_86"
          );
-         name = "MockingJayTests";
-         productName = "MockingJayTests";
-         productReference = "MockingJay::MockingJayTests::Product";
+         name = "MockingjayTests";
+         productName = "MockingjayTests";
+         productReference = "Mockingjay::MockingjayTests::Product";
          productType = "com.apple.product-type.bundle.unit-test";
       };
-      "MockingJay::MockingJayTests::Product" = {
+      "Mockingjay::MockingjayTests::Product" = {
          isa = "PBXFileReference";
-         path = "MockingJayTests.xctest";
+         path = "MockingjayTests.xctest";
          sourceTree = "BUILT_PRODUCTS_DIR";
       };
-      "MockingJay::MockingJayXCTest" = {
+      "Mockingjay::MockingjayXCTest" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_87";
+         buildConfigurationList = "OBJ_88";
          buildPhases = (
-            "OBJ_90",
-            "OBJ_92"
+            "OBJ_91",
+            "OBJ_93"
          );
          dependencies = (
-            "OBJ_95",
-            "OBJ_96"
+            "OBJ_96",
+            "OBJ_97"
          );
-         name = "MockingJayXCTest";
-         productName = "MockingJayXCTest";
-         productReference = "MockingJay::MockingJayXCTest::Product";
+         name = "MockingjayXCTest";
+         productName = "MockingjayXCTest";
+         productReference = "Mockingjay::MockingjayXCTest::Product";
          productType = "com.apple.product-type.framework";
       };
-      "MockingJay::MockingJayXCTest::Product" = {
+      "Mockingjay::MockingjayXCTest::Product" = {
          isa = "PBXFileReference";
-         path = "MockingJayXCTest.framework";
+         path = "MockingjayXCTest.framework";
          sourceTree = "BUILT_PRODUCTS_DIR";
       };
-      "MockingJay::SwiftPMPackageDescription" = {
+      "Mockingjay::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_60";
+         buildConfigurationList = "OBJ_61";
          buildPhases = (
-            "OBJ_63"
+            "OBJ_64"
          );
          dependencies = (
          );
-         name = "MockingJayPackageDescription";
-         productName = "MockingJayPackageDescription";
+         name = "MockingjayPackageDescription";
+         productName = "MockingjayPackageDescription";
          productType = "com.apple.product-type.framework";
       };
       "OBJ_1" = {
@@ -113,15 +113,15 @@
             "en"
          );
          mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_29";
+         productRefGroup = "OBJ_30";
          projectDirPath = ".";
          targets = (
-            "MockingJay::MockingJay::ProductTarget",
-            "MockingJay::MockingJayCore",
-            "MockingJay::SwiftPMPackageDescription",
-            "MockingJay::MockingJayPackageTests::ProductTarget",
-            "MockingJay::MockingJayTests",
-            "MockingJay::MockingJayXCTest",
+            "Mockingjay::Mockingjay::ProductTarget",
+            "Mockingjay::MockingjayCore",
+            "Mockingjay::SwiftPMPackageDescription",
+            "Mockingjay::MockingjayPackageTests::ProductTarget",
+            "Mockingjay::MockingjayTests",
+            "Mockingjay::MockingjayXCTest",
             "URITemplate::URITemplate",
             "URITemplate::SwiftPMPackageDescription"
          );
@@ -132,48 +132,69 @@
          sourceTree = "<group>";
       };
       "OBJ_100" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_101"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Mockingjay.xcodeproj/URITemplate_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "URITemplate";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "URITemplate";
+            TVOS_DEPLOYMENT_TARGET = "10.0";
+            WATCHOS_DEPLOYMENT_TARGET = "3.0";
+         };
+         name = "Release";
       };
       "OBJ_101" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_28";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_102"
+         );
       };
       "OBJ_102" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_29";
+      };
+      "OBJ_103" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
       };
-      "OBJ_104" = {
+      "OBJ_105" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_105",
-            "OBJ_106"
+            "OBJ_106",
+            "OBJ_107"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_105" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
       };
       "OBJ_106" = {
          isa = "XCBuildConfiguration";
@@ -193,17 +214,37 @@
             );
             SWIFT_VERSION = "5.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_107" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_108"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
       };
       "OBJ_108" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_109"
+         );
+      };
+      "OBJ_109" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
+         fileRef = "OBJ_28";
       };
       "OBJ_11" = {
          isa = "PBXFileReference";
@@ -230,7 +271,7 @@
          children = (
             "OBJ_16"
          );
-         name = "MockingJayXCTest";
+         name = "MockingjayXCTest";
          path = "Sources/XCTest";
          sourceTree = "SOURCE_ROOT";
       };
@@ -242,26 +283,30 @@
       "OBJ_17" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_18",
+            "OBJ_18"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_18" = {
+         isa = "PBXGroup";
+         children = (
             "OBJ_19",
             "OBJ_20",
             "OBJ_21",
             "OBJ_22",
             "OBJ_23",
-            "OBJ_24"
+            "OBJ_24",
+            "OBJ_25"
          );
-         name = "Tests";
+         name = "MockingjayTests";
          path = "Tests/MockingjayTests";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_18" = {
-         isa = "PBXFileReference";
-         path = "Info.plist";
-         sourceTree = "<group>";
-      };
       "OBJ_19" = {
          isa = "PBXFileReference";
-         path = "BuildersTests.swift";
+         path = "Info.plist";
          sourceTree = "<group>";
       };
       "OBJ_2" = {
@@ -275,71 +320,64 @@
       };
       "OBJ_20" = {
          isa = "PBXFileReference";
-         path = "MatcherTests.swift";
+         path = "BuildersTests.swift";
          sourceTree = "<group>";
       };
       "OBJ_21" = {
          isa = "PBXFileReference";
-         path = "MockingjayAsyncProtocolTests.swift";
+         path = "MatcherTests.swift";
          sourceTree = "<group>";
       };
       "OBJ_22" = {
          isa = "PBXFileReference";
-         path = "MockingjayProtocolTests.swift";
+         path = "MockingjayAsyncProtocolTests.swift";
          sourceTree = "<group>";
       };
       "OBJ_23" = {
          isa = "PBXFileReference";
-         path = "MockingjayTests.swift";
+         path = "MockingjayProtocolTests.swift";
          sourceTree = "<group>";
       };
       "OBJ_24" = {
          isa = "PBXFileReference";
-         path = "MockingjayXCTestTests.swift";
+         path = "MockingjayTests.swift";
          sourceTree = "<group>";
       };
       "OBJ_25" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_26"
-         );
-         name = "Dependencies";
-         path = "";
+         isa = "PBXFileReference";
+         path = "MockingjayXCTestTests.swift";
          sourceTree = "<group>";
       };
       "OBJ_26" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_27",
-            "OBJ_28"
+            "OBJ_27"
+         );
+         name = "Dependencies";
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_27" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_28",
+            "OBJ_29"
          );
          name = "URITemplate";
          path = ".build/checkouts/URITemplate.swift/Sources";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_27" = {
+      "OBJ_28" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/bvkuijck/Desktop/workspace/forks/Mockingjay/.build/checkouts/URITemplate.swift/Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_28" = {
-         isa = "PBXFileReference";
-         path = "URITemplate.swift";
+         path = "/Users/bvkuijck/Desktop/workspace/forks/Mockingjay2/.build/checkouts/URITemplate.swift/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_29" = {
-         isa = "PBXGroup";
-         children = (
-            "URITemplate::URITemplate::Product",
-            "MockingJay::MockingJayXCTest::Product",
-            "MockingJay::MockingJayTests::Product",
-            "MockingJay::MockingJayCore::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
+         isa = "PBXFileReference";
+         path = "URITemplate.swift";
+         sourceTree = "<group>";
       };
       "OBJ_3" = {
          isa = "XCBuildConfiguration";
@@ -383,34 +421,41 @@
          };
          name = "Debug";
       };
-      "OBJ_34" = {
+      "OBJ_30" = {
+         isa = "PBXGroup";
+         children = (
+            "Mockingjay::MockingjayTests::Product",
+            "Mockingjay::MockingjayCore::Product",
+            "Mockingjay::MockingjayXCTest::Product",
+            "URITemplate::URITemplate::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_35" = {
          isa = "PBXFileReference";
          path = "Configurations";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_35" = {
+      "OBJ_36" = {
          isa = "PBXFileReference";
          path = "ARCHITECTURE.md";
          sourceTree = "<group>";
       };
-      "OBJ_36" = {
+      "OBJ_37" = {
          isa = "PBXFileReference";
          path = "Mockingjay.podspec";
          sourceTree = "<group>";
       };
-      "OBJ_37" = {
+      "OBJ_38" = {
          isa = "PBXFileReference";
          path = "LICENSE";
          sourceTree = "<group>";
       };
-      "OBJ_38" = {
-         isa = "PBXFileReference";
-         path = "CHANGELOG.md";
-         sourceTree = "<group>";
-      };
       "OBJ_39" = {
          isa = "PBXFileReference";
-         path = "README.md";
+         path = "CHANGELOG.md";
          sourceTree = "<group>";
       };
       "OBJ_4" = {
@@ -451,80 +496,44 @@
          };
          name = "Release";
       };
-      "OBJ_41" = {
+      "OBJ_40" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_42" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_42",
-            "OBJ_43"
+            "OBJ_43",
+            "OBJ_44"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_42" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
       };
       "OBJ_43" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_44" = {
-         isa = "PBXTargetDependency";
-         target = "MockingJay::MockingJayCore";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
       };
-      "OBJ_46" = {
+      "OBJ_45" = {
+         isa = "PBXTargetDependency";
+         target = "Mockingjay::MockingjayCore";
+      };
+      "OBJ_47" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_47",
-            "OBJ_48"
+            "OBJ_48",
+            "OBJ_49"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_47" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MockingJay.xcodeproj/MockingJayCore_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MockingJayCore";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MockingJayCore";
-            TVOS_DEPLOYMENT_TARGET = "10.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
       };
       "OBJ_48" = {
          isa = "XCBuildConfiguration";
@@ -537,7 +546,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "MockingJay.xcodeproj/MockingJayCore_Info.plist";
+            INFOPLIST_FILE = "Mockingjay.xcodeproj/MockingjayCore_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "10.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -553,7 +562,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "MockingJayCore";
+            PRODUCT_BUNDLE_IDENTIFIER = "MockingjayCore";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
@@ -561,21 +570,52 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MockingJayCore";
+            TARGET_NAME = "MockingjayCore";
+            TVOS_DEPLOYMENT_TARGET = "10.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_49" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Mockingjay.xcodeproj/MockingjayCore_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "MockingjayCore";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "MockingjayCore";
             TVOS_DEPLOYMENT_TARGET = "10.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
-      };
-      "OBJ_49" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_50",
-            "OBJ_51",
-            "OBJ_52",
-            "OBJ_53",
-            "OBJ_54"
-         );
       };
       "OBJ_5" = {
          isa = "PBXGroup";
@@ -583,49 +623,59 @@
             "OBJ_6",
             "OBJ_7",
             "OBJ_17",
-            "OBJ_25",
-            "OBJ_29",
-            "OBJ_34",
+            "OBJ_26",
+            "OBJ_30",
             "OBJ_35",
             "OBJ_36",
             "OBJ_37",
             "OBJ_38",
-            "OBJ_39"
+            "OBJ_39",
+            "OBJ_40"
          );
          path = "";
          sourceTree = "<group>";
       };
       "OBJ_50" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_51",
+            "OBJ_52",
+            "OBJ_53",
+            "OBJ_54",
+            "OBJ_55"
+         );
       };
       "OBJ_51" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
+         fileRef = "OBJ_10";
       };
       "OBJ_52" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
+         fileRef = "OBJ_11";
       };
       "OBJ_53" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
+         fileRef = "OBJ_12";
       };
       "OBJ_54" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
+         fileRef = "OBJ_13";
       };
       "OBJ_55" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_56"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_14";
       };
       "OBJ_56" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_57"
+         );
+      };
+      "OBJ_57" = {
          isa = "PBXBuildFile";
          fileRef = "URITemplate::URITemplate::Product";
       };
-      "OBJ_57" = {
+      "OBJ_58" = {
          isa = "PBXTargetDependency";
          target = "URITemplate::URITemplate";
       };
@@ -635,34 +685,14 @@
          path = "Package.swift";
          sourceTree = "<group>";
       };
-      "OBJ_60" = {
+      "OBJ_61" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_61",
-            "OBJ_62"
+            "OBJ_62",
+            "OBJ_63"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_61" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
       };
       "OBJ_62" = {
          isa = "XCBuildConfiguration";
@@ -682,42 +712,58 @@
             );
             SWIFT_VERSION = "5.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_63" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_64"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
       };
       "OBJ_64" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_65"
+         );
+      };
+      "OBJ_65" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_6";
       };
-      "OBJ_66" = {
+      "OBJ_67" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_67",
-            "OBJ_68"
+            "OBJ_68",
+            "OBJ_69"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_67" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
       };
       "OBJ_68" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_69" = {
-         isa = "PBXTargetDependency";
-         target = "MockingJay::MockingJayTests";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
       };
       "OBJ_7" = {
          isa = "PBXGroup";
@@ -729,53 +775,18 @@
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_71" = {
+      "OBJ_70" = {
+         isa = "PBXTargetDependency";
+         target = "Mockingjay::MockingjayTests";
+      };
+      "OBJ_72" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_72",
-            "OBJ_73"
+            "OBJ_73",
+            "OBJ_74"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_72" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MockingJay.xcodeproj/MockingJayTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MockingJayTests";
-            TVOS_DEPLOYMENT_TARGET = "10.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
       };
       "OBJ_73" = {
          isa = "XCBuildConfiguration";
@@ -789,7 +800,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "MockingJay.xcodeproj/MockingJayTests_Info.plist";
+            INFOPLIST_FILE = "Mockingjay.xcodeproj/MockingjayTests_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "10.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -810,26 +821,61 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MockingJayTests";
+            TARGET_NAME = "MockingjayTests";
+            TVOS_DEPLOYMENT_TARGET = "10.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_74" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Mockingjay.xcodeproj/MockingjayTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "MockingjayTests";
             TVOS_DEPLOYMENT_TARGET = "10.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
-      "OBJ_74" = {
+      "OBJ_75" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_75",
             "OBJ_76",
             "OBJ_77",
             "OBJ_78",
             "OBJ_79",
-            "OBJ_80"
+            "OBJ_80",
+            "OBJ_81"
          );
-      };
-      "OBJ_75" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
       };
       "OBJ_76" = {
          isa = "PBXBuildFile";
@@ -857,7 +903,7 @@
             "OBJ_13",
             "OBJ_14"
          );
-         name = "MockingJayCore";
+         name = "MockingjayCore";
          path = "Sources/Core";
          sourceTree = "SOURCE_ROOT";
       };
@@ -866,77 +912,40 @@
          fileRef = "OBJ_24";
       };
       "OBJ_81" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_82",
-            "OBJ_83"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
       };
       "OBJ_82" = {
-         isa = "PBXBuildFile";
-         fileRef = "MockingJay::MockingJayCore::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_83",
+            "OBJ_84"
+         );
       };
       "OBJ_83" = {
          isa = "PBXBuildFile";
-         fileRef = "URITemplate::URITemplate::Product";
+         fileRef = "Mockingjay::MockingjayCore::Product";
       };
       "OBJ_84" = {
-         isa = "PBXTargetDependency";
-         target = "MockingJay::MockingJayCore";
+         isa = "PBXBuildFile";
+         fileRef = "URITemplate::URITemplate::Product";
       };
       "OBJ_85" = {
          isa = "PBXTargetDependency";
+         target = "Mockingjay::MockingjayCore";
+      };
+      "OBJ_86" = {
+         isa = "PBXTargetDependency";
          target = "URITemplate::URITemplate";
       };
-      "OBJ_87" = {
+      "OBJ_88" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_88",
-            "OBJ_89"
+            "OBJ_89",
+            "OBJ_90"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_88" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MockingJay.xcodeproj/MockingJayXCTest_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MockingJayXCTest";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MockingJayXCTest";
-            TVOS_DEPLOYMENT_TARGET = "10.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
       };
       "OBJ_89" = {
          isa = "XCBuildConfiguration";
@@ -949,7 +958,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "MockingJay.xcodeproj/MockingJayXCTest_Info.plist";
+            INFOPLIST_FILE = "Mockingjay.xcodeproj/MockingjayXCTest_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "10.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -965,7 +974,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "MockingJayXCTest";
+            PRODUCT_BUNDLE_IDENTIFIER = "MockingjayXCTest";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
@@ -973,11 +982,11 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MockingJayXCTest";
+            TARGET_NAME = "MockingjayXCTest";
             TVOS_DEPLOYMENT_TARGET = "10.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_9" = {
          isa = "PBXFileReference";
@@ -985,48 +994,6 @@
          sourceTree = "<group>";
       };
       "OBJ_90" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_91"
-         );
-      };
-      "OBJ_91" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
-      };
-      "OBJ_92" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_93",
-            "OBJ_94"
-         );
-      };
-      "OBJ_93" = {
-         isa = "PBXBuildFile";
-         fileRef = "MockingJay::MockingJayCore::Product";
-      };
-      "OBJ_94" = {
-         isa = "PBXBuildFile";
-         fileRef = "URITemplate::URITemplate::Product";
-      };
-      "OBJ_95" = {
-         isa = "PBXTargetDependency";
-         target = "MockingJay::MockingJayCore";
-      };
-      "OBJ_96" = {
-         isa = "PBXTargetDependency";
-         target = "URITemplate::URITemplate";
-      };
-      "OBJ_97" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_98",
-            "OBJ_99"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_98" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -1037,7 +1004,90 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "MockingJay.xcodeproj/URITemplate_Info.plist";
+            INFOPLIST_FILE = "Mockingjay.xcodeproj/MockingjayXCTest_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "MockingjayXCTest";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "MockingjayXCTest";
+            TVOS_DEPLOYMENT_TARGET = "10.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_91" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_92"
+         );
+      };
+      "OBJ_92" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_16";
+      };
+      "OBJ_93" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_94",
+            "OBJ_95"
+         );
+      };
+      "OBJ_94" = {
+         isa = "PBXBuildFile";
+         fileRef = "Mockingjay::MockingjayCore::Product";
+      };
+      "OBJ_95" = {
+         isa = "PBXBuildFile";
+         fileRef = "URITemplate::URITemplate::Product";
+      };
+      "OBJ_96" = {
+         isa = "PBXTargetDependency";
+         target = "Mockingjay::MockingjayCore";
+      };
+      "OBJ_97" = {
+         isa = "PBXTargetDependency";
+         target = "URITemplate::URITemplate";
+      };
+      "OBJ_98" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_99",
+            "OBJ_100"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_99" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Mockingjay.xcodeproj/URITemplate_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "9.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -1067,52 +1117,11 @@
          };
          name = "Debug";
       };
-      "OBJ_99" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MockingJay.xcodeproj/URITemplate_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "URITemplate";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "URITemplate";
-            TVOS_DEPLOYMENT_TARGET = "10.0";
-            WATCHOS_DEPLOYMENT_TARGET = "3.0";
-         };
-         name = "Release";
-      };
       "URITemplate::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_104";
+         buildConfigurationList = "OBJ_105";
          buildPhases = (
-            "OBJ_107"
+            "OBJ_108"
          );
          dependencies = (
          );
@@ -1122,10 +1131,10 @@
       };
       "URITemplate::URITemplate" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_97";
+         buildConfigurationList = "OBJ_98";
          buildPhases = (
-            "OBJ_100",
-            "OBJ_102"
+            "OBJ_101",
+            "OBJ_103"
          );
          dependencies = (
          );
