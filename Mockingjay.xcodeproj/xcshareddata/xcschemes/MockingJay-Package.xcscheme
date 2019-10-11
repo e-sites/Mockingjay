@@ -20,20 +20,6 @@
                ReferencedContainer = "container:Mockingjay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Mockingjay::MockingjayXCTest"
-               BuildableName = "MockingjayXCTest.framework"
-               BlueprintName = "MockingjayXCTest"
-               ReferencedContainer = "container:Mockingjay.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

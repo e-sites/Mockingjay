@@ -2,13 +2,13 @@
 //  MockingjayAsyncProtocolTests.swift
 //  Mockingjay
 //
+
 //  Created by Stuart Lynch on 22/01/2016.
 //  Copyright © 2016 Cocode. All rights reserved.
 //
 
 import Foundation
 import XCTest
-@testable import MockingjayXCTest
 @testable import Mockingjay
 
 class MockingjayAsyncProtocolTests: XCTestCase, URLSessionDataDelegate  {

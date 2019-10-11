@@ -8,7 +8,7 @@
 
 import Foundation
 
-let swizzleDefaultSessionConfiguration: Void = {
+fileprivate let swizzleDefaultSessionConfiguration: Void = {
   let defaultSessionConfiguration = class_getClassMethod(URLSessionConfiguration.self, #selector(getter: URLSessionConfiguration.default))
   let mockingjayDefaultSessionConfiguration = class_getClassMethod(URLSessionConfiguration.self, #selector(URLSessionConfiguration.mockingjayDefaultSessionConfiguration))
   method_exchangeImplementations(defaultSessionConfiguration!, mockingjayDefaultSessionConfiguration!)

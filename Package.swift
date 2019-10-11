@@ -12,10 +12,6 @@ let package = Package(
         .library(
             name: "Mockingjay",
             targets: ["Mockingjay"]
-        ),
-        .library(
-            name: "MockingjayXCTest",
-            targets: ["MockingjayXCTest"]
         )
     ],
     dependencies: [
@@ -25,16 +21,11 @@ let package = Package(
         .target(
             name: "Mockingjay",
             dependencies: [ "URITemplate" ],
-            path: "Sources/Core"
-        ),
-        .target(
-            name: "MockingjayXCTest",
-            dependencies: [ "Mockingjay" ],
-            path: "Sources/XCTest"
+            path: "Sources"
         ),
         .testTarget(
           name: "MockingjayTests",
-          dependencies: [ "MockingjayXCTest" ],
+          dependencies: [ "Mockingjay" ],
           path: "Tests/MockingjayTests"
         )
     ],
