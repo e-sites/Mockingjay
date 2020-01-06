@@ -9,6 +9,7 @@
 #if canImport(XCTest)
 import ObjectiveC
 import XCTest
+import Mockingjay
 
 let swizzleTearDown: Void = {
   let tearDown = class_getInstanceMethod(XCTest.self, #selector(XCTest.tearDown))

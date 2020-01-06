@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import MockingjayXCTest
 @testable import Mockingjay
 
 
