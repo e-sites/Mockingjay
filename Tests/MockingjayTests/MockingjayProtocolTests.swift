@@ -13,11 +13,10 @@ import XCTest
 
 class MockingjayProtocolTests : XCTestCase {
   
-  var urlSession:URLSession!
+  lazy var urlSession = URLSession(configuration: URLSessionConfiguration.default)
   
   override func setUp() {
     super.setUp()
-    urlSession = URLSession(configuration: URLSessionConfiguration.default)
   }
   
   override func tearDown() {
@@ -73,6 +72,7 @@ class MockingjayProtocolTests : XCTestCase {
     XCTAssertNil(response)
     XCTAssertNil(data)
     XCTAssertNotNil(error)
+    XCTAssertEqual((error as NSError?)?.domain, "MockingjayTests")
   }
 
   func testProtocolReturnsResponseWithRegisteredStubError() {
