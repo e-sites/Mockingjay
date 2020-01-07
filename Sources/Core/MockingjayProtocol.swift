@@ -29,7 +29,7 @@ public func ==(lhs:Stub, rhs:Stub) -> Bool {
 }
 
 var stubs = [Stub]()
-var registered: Bool = false
+public var registered: Bool = false
 
 public class MockingjayProtocol: URLProtocol {
   // MARK: Stubs
