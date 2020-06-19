@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Cocode. All rights reserved.
 //
 
-#if canImport(XCTest)
+#if os(macOS) || os(iOS) || os(Linux) || os(tvOS)
 import ObjectiveC
 import XCTest
 
