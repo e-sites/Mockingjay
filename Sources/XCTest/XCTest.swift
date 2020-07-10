@@ -9,6 +9,7 @@
 #if os(macOS) || os(iOS) || os(Linux) || os(tvOS)
 import ObjectiveC
 import XCTest
+import Mockingjay
 
 let swizzleTearDown: Void = {
   let tearDown = class_getInstanceMethod(XCTest.self, #selector(XCTest.tearDown))

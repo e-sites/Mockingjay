@@ -20,12 +20,14 @@ class MockingjaySessionTests: XCTestCase {
   }
 
   func testEphemeralSessionConfigurationIncludesProtocol() {
+    ensureMockingjayProtocolRegistration()
     let configuration = URLSessionConfiguration.ephemeral
     let protocolClasses = (configuration.protocolClasses!).map(toString)
     XCTAssertEqual(protocolClasses.first!, "MockingjayProtocol")
   }
 
   func testDefaultSessionConfigurationIncludesProtocol() {
+    ensureMockingjayProtocolRegistration()
     let configuration = URLSessionConfiguration.default
     let protocolClasses = (configuration.protocolClasses!).map(toString)
     XCTAssertEqual(protocolClasses.first!, "MockingjayProtocol")
@@ -50,6 +52,19 @@ class MockingjaySessionTests: XCTestCase {
 
     waitForExpectations(timeout: 5) { error in
       XCTAssertNil(error, String(describing: error))
+    }
+  }
+
+  /// Ensures that `MockingjayProtocol` is added to `URLProtocol` registered classes.
+  ///
+  /// The registration process happens while stubbing, so for test cases, where `stub(_:_:)` is not called
+  /// `MockingjayProtocol` will not be registered. Call this method within those test cases
+  /// if your test relies on `MockingjayProtocol` being registered to pass.
+  func ensureMockingjayProtocolRegistration() {
+    if !registered {
+      URLProtocol.registerClass(MockingjayProtocol.self)
+      URLSessionConfiguration.mockingjaySwizzleDefaultSessionConfiguration()
+      registered = true
     }
   }
 }
